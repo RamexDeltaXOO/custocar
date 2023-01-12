@@ -13,9 +13,10 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Auth.auth().createUser(withEmail: "toto@toto.com", password: "toto") { authResult, error in
+        print("toto")
+        Auth.auth().createUser(withEmail: "totodffdfghdfhdf@toto.com", password: "totototo") { authResult, error in
             if let error = error as? NSError {
-                print("error")
+                print("error \(error)")
             } else {
                 print("utilisateur cree")
             }
