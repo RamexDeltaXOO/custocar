@@ -41,7 +41,7 @@
 		1EF97484295259CD00F467DA /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1EF97483295259CD00F467DA /* FirebaseRemoteConfigSwift */; };
 		1EF97486295259CD00F467DA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1EF97485295259CD00F467DA /* FirebaseStorage */; };
 		1EF97488295259CD00F467DA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 1EF97487295259CD00F467DA /* FirebaseStorageCombine-Community */; };
-		1EF9748A29525B4300F467DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9748929525B4300F467DA /* GoogleService-Info.plist */; };
+		EC77BCA2296FFE4500598488 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC77BCA1296FFE4400598488 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,7 @@
 		1EF9744B295251FE00F467DA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		1EF9744E295254D300F467DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1EF9744F295254D300F467DA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		1EF9748929525B4300F467DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC77BCA1296FFE4400598488 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		1EDA0B942951043D00E5BC7F = {
 			isa = PBXGroup;
 			children = (
-				1EF9748929525B4300F467DA /* GoogleService-Info.plist */,
+				EC77BCA1296FFE4400598488 /* GoogleService-Info.plist */,
 				1EDA0B9F2951043D00E5BC7F /* CustoCar */,
 				1EDA0B9E2951043D00E5BC7F /* Products */,
 			);
@@ -219,7 +219,7 @@
 			files = (
 				1EDA0BAD2951043E00E5BC7F /* LaunchScreen.storyboard in Resources */,
 				1EDA0BAA2951043E00E5BC7F /* Assets.xcassets in Resources */,
-				1EF9748A29525B4300F467DA /* GoogleService-Info.plist in Resources */,
+				EC77BCA2296FFE4500598488 /* GoogleService-Info.plist in Resources */,
 				1EF9744D295251FE00F467DA /* LoginViewController.xib in Resources */,
 				1EF97451295254D300F467DA /* HomeViewController.xib in Resources */,
 			);
