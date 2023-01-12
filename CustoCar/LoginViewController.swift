@@ -6,13 +6,20 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        Auth.auth().createUser(withEmail: "toto@toto.com", password: "toto") { authResult, error in
+            if let error = error as? NSError {
+                print("error")
+            } else {
+                print("utilisateur cree")
+            }
+        }
     }
 
     @IBAction func connnectionButton(_ sender: Any) {
